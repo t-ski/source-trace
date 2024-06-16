@@ -1,0 +1,22 @@
+{
+    "name": "@t-ski/source-trace",
+    "version": "0.1.0",
+    "description": "Reliable source code position tracing.",
+    "author": "Thassilo Martin Schiepanski",
+    "homepage": "https://github.com/t-ski/source-trace#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/t-ski/source-trace.git"
+    },
+    "bugs": {
+        "url": "https://github.com/t-ski/source-trace/issues"
+    },
+    "main": "./lib/SourceTrace.js",
+    "files": [
+        "./lib/"
+    ],
+    "scripts": {
+        "prepare": "curl -o min-test.js https://raw.githubusercontent.com/t-ski/min-test/main/min-test.js",
+        "test": "node ./min-test.js"
+    }
+}
